@@ -1,0 +1,43 @@
+Main_Campus_Router#ping 20.0.0.3
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 20.0.0.3, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 10/14/17 ms
+
+Main_Campus_Router#ping 10.10.10.6
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 10.10.10.6, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 8/17/33 ms
+
+Main_Campus_Router#ping 10.10.10.2
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 10.10.10.2, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 10/15/23 ms
+
+Main_Campus_Router#ping 192.168.1.11
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.1.11, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 0/0/0 ms
+
+Main_Campus_Router#ping 192.168.2.11
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.2.11, timeout is 2 seconds:
+.!!!!
+Success rate is 80 percent (4/5), round-trip min/avg/max = 0/0/0 ms
+
+Main_Campus_Router#ping 192.168.10.11
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.10.11, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 2/9/15 ms
+
+Main_Campus_Router#

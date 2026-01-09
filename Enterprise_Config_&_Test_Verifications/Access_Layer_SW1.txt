@@ -1,0 +1,167 @@
+Admin_Dept_SW#sh running-config 
+Building configuration...
+
+Current configuration : 2818 bytes
+!
+version 15.0
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname Admin_Dept_SW
+!
+!
+!
+!
+!
+!
+spanning-tree mode pvst
+spanning-tree extend system-id
+!
+interface FastEthernet0/1
+ description Admin
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/2
+ description Admin
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/3
+ description Admin
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/4
+ description Admin
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/5
+ description Admin
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/6
+ description Admin
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/7
+ description Admin
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/8
+ description Admin
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/9
+ description Admin
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/10
+ description Admin
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/11
+ description Admin
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/12
+ description Admin
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/13
+ description Admin
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/14
+ description Admin
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/15
+ description Admin
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/16
+ description Admin
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/17
+ description Admin
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/18
+ description Admin
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/19
+ description Admin
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/20
+ description Admin
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/21
+ description Admin
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/22
+ description Admin
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/23
+ description Admin
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/24
+ description Admin
+ switchport access vlan 10
+ switchport mode access
+!
+interface GigabitEthernet0/1
+ switchport access vlan 10
+ switchport mode access
+!
+interface GigabitEthernet0/2
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+!
+!
+!
+line con 0
+!
+line vty 0 4
+ login
+line vty 5 15
+ login
+!
+!
+!
+!
+end
+
+
+Admin_Dept_SW#             
